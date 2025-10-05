@@ -1,0 +1,52 @@
+/* ESTILO GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #33a8db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* BOTÕES */
+button {
+    padding: 10px 20px;
+    background-color: #33a8db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1d6fa5;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
