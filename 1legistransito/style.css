@@ -1,52 +1,86 @@
-/* ESTILO GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  background-color: #f4f4f4;
+  color: #222;
 }
 
-/* CABEÇALHO */
 header {
-    background-color: #33a8db;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #005fa3;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
 
-/* CONTEÚDO PRINCIPAL */
 main {
-    padding: 20px;
+  display: flex;
+  min-height: 90vh;
 }
 
-section {
-    margin-bottom: 30px;
+aside#menu {
+  width: 250px;
+  background-color: #e0e0e0;
+  padding: 1rem;
+  overflow-y: auto;
+  border-right: 2px solid #ccc;
 }
 
-section img {
-    max-width: 100%;
-    height: auto;
+aside#menu h2 {
+  margin-bottom: 1rem;
 }
 
-/* BOTÕES */
-button {
-    padding: 10px 20px;
-    background-color: #33a8db;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+aside#menu ul {
+  list-style: none;
 }
 
-button:hover {
-    background-color: #1d6fa5;
+aside#menu li {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
-/* RODAPÉ */
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 10px;
+aside#menu li:hover, aside#menu li.active {
+  background-color: #005fa3;
+  color: white;
+}
+
+section#slide-container {
+  flex: 1;
+  padding: 2rem;
+  background-color: white;
+  overflow-y: auto;
+}
+
+#slide-content h2 {
+  color: #005fa3;
+  margin-bottom: 1rem;
+}
+
+#slide-content ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.controls button {
+  padding: 0.5rem 1rem;
+  background-color: #005fa3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #003f6b;
 }
