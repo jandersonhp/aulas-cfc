@@ -542,31 +542,289 @@ const slides = [
   }
 ];
 
-// -- código de navegação permanece igual --
+// =============================================
+// VARIÁVEIS GLOBAIS - NOVAS FUNCIONALIDADES
+// =============================================
 let currentSlide = 0;
+let reviewMode = false; // Controla se está no modo revisão
+let searchResults = []; // Armazena índices dos slides com resultados da busca
+let currentSearchIndex = -1; // Índice atual na navegação de resultados
+
+// =============================================
+// ELEMENTOS DO DOM (mantidos do código original)
+// =============================================
 const slideContent = document.getElementById('slide-content');
 const slideNumber = document.getElementById('slide-number');
 const slideList = document.getElementById('slide-list');
 
+// =============================================
+// FUNÇÃO PRINCIPAL DE RENDERIZAÇÃO (ATUALIZADA)
+// =============================================
 function renderSlide(index) {
   const slide = slides[index];
-  slideContent.innerHTML = `<h2>${slide.title}</h2>${slide.content}`;
+  let content = slide.content;
+  
+  // SE ESTIVER NO MODO REVISÃO E HOUVER RESULTADOS DE BUSCA, APLICA DESTAQUE
+  if (reviewMode && currentSearchIndex !== -1 && searchResults.length > 0) {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    content = highlightText(content, searchTerm);
+  }
+  
+  slideContent.innerHTML = `<h2>${slide.title}</h2>${content}`;
   slideNumber.textContent = `${index + 1} / ${slides.length}`;
+  
+  // Atualiza menu lateral (código original)
   document.querySelectorAll('#slide-list li').forEach((li, i) => {
     li.classList.toggle('active', i === index);
+    
+    // NOVO: Destaca resultados da busca no menu
+    if (reviewMode && searchResults.includes(i)) {
+      li.classList.add('search-result');
+    } else {
+      li.classList.remove('search-result');
+    }
+  });
+  
+  // NOVO: Atualiza controles de busca se estiverem ativos
+  updateSearchControls();
+}
+
+// =============================================
+// FUNÇÕES DO MODO REVISÃO - NOVAS
+// =============================================
+
+// Alterna entre modo normal e modo revisão
+function toggleReviewMode() {
+  reviewMode = !reviewMode;
+  const reviewBtn = document.getElementById('review-btn');
+  
+  if (reviewMode) {
+    // Ativa modo revisão
+    document.body.classList.add('review-mode');
+    reviewBtn.textContent = 'Modo Normal';
+    showSearchInterface(); // Mostra interface de busca
+  } else {
+    // Desativa modo revisão
+    document.body.classList.remove('review-mode');
+    reviewBtn.textContent = 'Modo Revisão';
+    hideSearchInterface(); // Esconde interface de busca
+    clearSearch(); // Limpa busca ao sair do modo revisão
+  }
+  
+  // Re-renderiza o slide atual para aplicar/remover estilos
+  renderSlide(currentSlide);
+}
+
+// Mostra a interface de busca
+function showSearchInterface() {
+  // Cria interface de busca apenas se não existir
+  if (!document.getElementById('search-container')) {
+    const searchHTML = `
+      <div id="search-container" class="search-container">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Buscar nos slides...">
+          <button id="search-btn">🔍 Buscar</button>
+          <button id="clear-search">× Limpar</button>
+        </div>
+        <div id="search-info" class="search-info"></div>
+        <div class="search-nav">
+          <button id="prev-result">‹ Anterior</button>
+          <span id="search-counter"></span>
+          <button id="next-result">Próximo ›</button>
+        </div>
+      </div>
+    `;
+    
+    // Insere a interface de busca antes dos controles
+    const controls = document.querySelector('.controls');
+    controls.insertAdjacentHTML('beforebegin', searchHTML);
+    
+    // Adiciona event listeners aos novos elementos
+    document.getElementById('search-btn').addEventListener('click', performSearch);
+    document.getElementById('clear-search').addEventListener('click', clearSearch);
+    document.getElementById('prev-result').addEventListener('click', goToPrevResult);
+    document.getElementById('next-result').addEventListener('click', goToNextResult);
+    
+    // Busca ao pressionar Enter
+    document.getElementById('search-input').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') performSearch();
+    });
+  }
+  
+  // Mostra a interface
+  document.getElementById('search-container').style.display = 'block';
+  updateSearchControls(); // Atualiza informações iniciais
+}
+
+// Esconde a interface de busca
+function hideSearchInterface() {
+  const searchContainer = document.getElementById('search-container');
+  if (searchContainer) {
+    searchContainer.style.display = 'none';
+  }
+}
+
+// =============================================
+// FUNÇÕES DE BUSCA - NOVAS
+// =============================================
+
+// Executa a busca nos slides
+function performSearch() {
+  const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
+  
+  if (!searchTerm) {
+    clearSearch();
+    return;
+  }
+  
+  // Busca em todos os slides (título + conteúdo)
+  searchResults = [];
+  slides.forEach((slide, index) => {
+    const content = (slide.title + slide.content).toLowerCase();
+    if (content.includes(searchTerm)) {
+      searchResults.push(index);
+    }
+  });
+  
+  if (searchResults.length > 0) {
+    // Encontrou resultados - vai para o primeiro
+    currentSearchIndex = 0;
+    currentSlide = searchResults[0];
+    renderSlide(currentSlide);
+    updateSearchControls();
+  } else {
+    // Nenhum resultado encontrado
+    currentSearchIndex = -1;
+    document.getElementById('search-info').textContent = 'Nenhum resultado encontrado.';
+    document.getElementById('search-counter').textContent = '0/0';
+  }
+}
+
+// Limpa a busca e remove destaques
+function clearSearch() {
+  searchResults = [];
+  currentSearchIndex = -1;
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) searchInput.value = '';
+  updateSearchControls();
+  
+  // Remove destaque dos resultados no menu
+  document.querySelectorAll('#slide-list li').forEach(li => {
+    li.classList.remove('search-result');
+  });
+  
+  // Re-renderiza o slide atual sem destaque
+  if (reviewMode) {
+    renderSlide(currentSlide);
+  }
+}
+
+// Navega para o resultado anterior
+function goToPrevResult() {
+  if (searchResults.length > 0) {
+    currentSearchIndex = (currentSearchIndex - 1 + searchResults.length) % searchResults.length;
+    currentSlide = searchResults[currentSearchIndex];
+    renderSlide(currentSlide);
+  }
+}
+
+// Navega para o próximo resultado
+function goToNextResult() {
+  if (searchResults.length > 0) {
+    currentSearchIndex = (currentSearchIndex + 1) % searchResults.length;
+    currentSlide = searchResults[currentSearchIndex];
+    renderSlide(currentSlide);
+  }
+}
+
+// Atualiza os controles e informações da busca
+function updateSearchControls() {
+  const searchCounter = document.getElementById('search-counter');
+  const searchInfo = document.getElementById('search-info');
+  
+  if (searchCounter && searchInfo) {
+    if (searchResults.length > 0) {
+      searchCounter.textContent = `${currentSearchIndex + 1}/${searchResults.length}`;
+      searchInfo.textContent = `${searchResults.length} resultado(s) encontrado(s)`;
+    } else {
+      searchCounter.textContent = '0/0';
+      searchInfo.textContent = 'Digite um termo para buscar';
+    }
+  }
+}
+
+// Destaca o texto encontrado nos slides
+function highlightText(text, searchTerm) {
+  if (!searchTerm) return text;
+  
+  const regex = new RegExp(`(${escapeRegex(searchTerm)})`, 'gi');
+  return text.replace(regex, '<mark class="search-highlight">$1</mark>');
+}
+
+// Função auxiliar para escapar caracteres especiais em regex
+function escapeRegex(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// =============================================
+// INICIALIZAÇÃO DO APLICATIVO - ATUALIZADA
+// =============================================
+function initializeApp() {
+  // Renderiza slide inicial (código original)
+  renderSlide(currentSlide);
+  
+  // NOVO: Cria botão de modo revisão
+  const controls = document.querySelector('.controls');
+  const reviewBtn = document.createElement('button');
+  reviewBtn.id = 'review-btn';
+  reviewBtn.textContent = 'Modo Revisão';
+  reviewBtn.addEventListener('click', toggleReviewMode);
+  controls.appendChild(reviewBtn);
+  
+  // Navegação com teclado (código original ATUALIZADO)
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowRight') {
+      // NOVO: No modo revisão com resultados, navega entre resultados
+      if (reviewMode && searchResults.length > 0) {
+        goToNextResult();
+      } else {
+        // Comportamento original
+        currentSlide = (currentSlide + 1) % slides.length;
+        renderSlide(currentSlide);
+      }
+    } else if (event.key === 'ArrowLeft') {
+      // NOVO: No modo revisão com resultados, navega entre resultados
+      if (reviewMode && searchResults.length > 0) {
+        goToPrevResult();
+      } else {
+        // Comportamento original
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+        renderSlide(currentSlide);
+      }
+    }
   });
 }
 
+// =============================================
+// EVENT LISTENERS ORIGINAIS (MANTIDOS)
+// =============================================
+
+// Cria menu lateral (código original)
 slides.forEach((slide, index) => {
   const li = document.createElement('li');
   li.textContent = slide.title;
   li.addEventListener('click', () => {
     currentSlide = index;
+    // NOVO: Sai do modo de busca ao clicar manualmente em um slide
+    if (reviewMode) {
+      currentSearchIndex = -1;
+    }
     renderSlide(currentSlide);
   });
   slideList.appendChild(li);
 });
 
+// Botões de navegação (código original)
 document.getElementById('prev').addEventListener('click', () => {
   if (currentSlide > 0) currentSlide--;
   renderSlide(currentSlide);
@@ -577,15 +835,9 @@ document.getElementById('next').addEventListener('click', () => {
   renderSlide(currentSlide);
 });
 
-renderSlide(currentSlide);
+// =============================================
+// INICIALIZAÇÃO FINAL
+// =============================================
 
-// Navegação com teclado circular
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'ArrowRight') {
-    currentSlide = (currentSlide + 1) % slides.length;
-    renderSlide(currentSlide);
-  } else if (event.key === 'ArrowLeft') {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    renderSlide(currentSlide);
-  }
-});
+// Inicializa o aplicativo (substitui o renderSlide(currentSlide) original)
+initializeApp();
