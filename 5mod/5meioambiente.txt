@@ -1,0 +1,98 @@
+MÓDULO 5: MEIO AMBIENTE
+SLIDE 1: INTRODUÇÃO E SISTEMAS NACIONAIS (Pág. 122)
+• Definição de Meio Ambiente:
+    ◦ São as relações de ordem física, química ou biológica que regem a vida no planeta.
+    ◦ Configura o equilíbrio dos bens naturais, como água, ar, solo, subsolo, vegetação e os animais.
+    ◦ A interferência humana geralmente provoca alterações e o desequilíbrio ambiental.
+• SISNAMA (Sistema Nacional do Meio Ambiente):
+    ◦ Instituído pela Lei nº 6.938, de 31 de agosto de 1981, e regulamentado pelo Decreto nº 99.274/90.
+    ◦ Composição: Órgãos e entidades da União, dos Estados, do Distrito Federal, dos Municípios e Fundações instituídas pelo Poder Público.
+    ◦ Objetivo: Responsável pela proteção e melhoria da qualidade ambiental.
+    ◦ Principais Funções:
+        ▪ Estabelecer a Política Nacional do Meio Ambiente.
+        ▪ Estabelecer um conjunto articulado de órgãos para a proteção ambiental, garantindo a descentralização da gestão ambiental entre os entes federados.
+• CONAMA (Conselho Nacional do Meio Ambiente):
+    ◦ Órgão consultivo e deliberativo do SISNAMA.
+    ◦ Finalidade: Assessorar, estudar e propor ao Conselho de Governo, diretrizes de políticas governamentais para o meio ambiente e os recursos naturais.
+• IBAMA (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis):
+    ◦ Autarquia federal de personalidade jurídica de direito público.
+    ◦ Funções:
+        ▪ Exercer o poder de polícia ambiental.
+        ▪ Executar ações de políticas ambientais (licenciamento, fiscalização, monitoramento).
+• Legislação Específica:
+    ◦ A Lei nº 9.605 de 12 de fevereiro de 1998 dispõe sobre os crimes ambientais, e a pessoa jurídica ou física que causar dano ao meio ambiente poderá ser punida na esfera Civil, Administrativa e Criminalmente, tendo a obrigação de recuperar o dano causado.
+SLIDE 2: FONTES DE POLUIÇÃO DO AR E RISCOS À SAÚDE (Pág. 124)
+• Poluição do Ar: É provocada basicamente por duas fontes:
+    ◦ Fontes Estacionárias: Chaminés das fábricas e queima de óleo cru nas indústrias.
+    ◦ Fontes Móveis: Diversos veículos de transporte (caminhões, ônibus e automóveis).
+    ◦ Nas grandes cidades, automóveis e indústrias são os principais poluidores do ar.
+• Fumaça Negra: É emitida por chaminés de fábrica, escapamento de caminhões, e o lançamento de vapores d'água.
+• Veículos Automotores: Constituem a principal fonte de agressão ao meio ambiente.
+    ◦ A emissão de fumaça preta (material particulado) é lançada diretamente na atmosfera pelos veículos movidos a diesel.
+• Tecnologia e Combustíveis:
+    ◦ O avanço da tecnologia tem contribuído para a redução da emissão de gases.
+    ◦ A adição de etanol à gasolina reduziu as emissões de monóxido de carbono (CO).
+    ◦ O etanol (álcool) contribui para uma redução drástica das concentrações de chumbo na atmosfera.
+    ◦ Obs: A emissão média de CO por veículo hoje é de $0,3\text{ g/km}$, enquanto em 1986 era de $54\text{ g/km}$.
+• Riscos para a Saúde:
+    ◦ Os efeitos mais frequentes são nas vias respiratórias.
+    ◦ Materiais particulados e substâncias irritantes (como aldeídos e óxidos de nitrogênio) podem provocar irritações nas mucosas, bronquite, enfisema pulmonar e, em casos graves, levar à morte.
+SLIDE 3: POLUIÇÃO HÍDRICA E SONORA (Pág. 125)
+• Poluição das Águas Oceânicas e Fluviais:
+    ◦ Oceanos, lagos e rios, sobretudo os que se encontram nas proximidades de regiões industrializadas, estão seriamente poluídos.
+    ◦ Agentes Poluidores: Agrotóxicos (pesticidas, inseticidas, etc.) e os esgotos residenciais/industriais.
+    ◦ Materiais Sintéicos: Plásticos e óleos (despejados pelos navios petroleiros) são os principais poluidores dos oceanos.
+    ◦ Consequências: Contaminação, envenenamento e morte de peixes, mariscos, aves e mamíferos.
+• Poluição Sonora:
+    ◦ A audição é um dos sentidos que, se prejudicado, passa ao nosso redor.
+    ◦ Fontes: Roncos do motor, escapamento aberto, buzinas estridentes, aparelhos de som em último volume, deslocamento de caminhões, ônibus, motocicletas, aviões e eletrodomésticos.
+    ◦ A poluição sonora é um dos principais fatores responsáveis pelo estresse entre os moradores das grandes cidades.
+    ◦ Efeitos da Exposição: Surdez (parcial ou total), interferência na fala, perturbação da comunicação e modificação do humor.
+    ◦ Limites de Ruído: Até 90 decibéis (ruídos) ou 100 decibéis (sons) são toleráveis, mas acima disso podem provocar danos irreversíveis à audição.
+    ◦ Proibição e Infração: É proibida a utilização de som audível pelo lado externo, em volume ou frequência que perturbe o sossego público nas vias terrestres.
+    ◦ Infração (Art. 228 CTB): Conduzir veículo com equipamento de som em volume ou frequência que não sejam autorizados pelo CONTRAN. Penalidade: Infração Grave, multa e retenção do veículo para regularização.
+SLIDE 4: OPERAÇÃO ADEQUADA E FLUIDOS (Pág. 127)
+• Importância de uma Operação Adequada:
+    ◦ Respeitar a natureza e a qualidade de vida é melhorada.
+    ◦ O uso inadequado de produtos químicos ou inflamáveis pode causar danos irreparáveis.
+• Transporte de Produtos Perigosos:
+    ◦ Todo veículo que transporta produtos perigosos deve estar obrigatoriamente equipado com:
+        ▪ Extintores de incêndio portáteis.
+        ▪ Caixa de ferramentas compatíveis.
+        ▪ Calços.
+        ▪ Kit de emergência (primeiros socorros e EPI).
+    ◦ As empresas transportadoras devem preservar o meio ambiente, garantindo que o transporte seja feito em condições de segurança.
+• Cuidados na Substituição de Fluidos:
+    ◦ Fluidos Usados: Água da bateria, óleo de freio, óleo do motor e o próprio combustível.
+    ◦ Estes produtos, em contato com a natureza, contaminam rapidamente a poluição do solo e dos rios.
+    ◦ Descarte Correto:
+        ▪ Procure sempre um posto especializado para troca de óleos ou fluidos.
+        ▪ A água de esgoto e o óleo no solo atingem os lençóis d'água subterrâneos.
+        ▪ O óleo usado deve ser colocado em um recipiente próprio e levado para um posto especializado, onde será recolhido para a reciclagem.
+        ▪ As empresas são obrigadas a apresentar o certificado da agência nacional de petróleo (ANP) para descarte do óleo.
+SLIDE 5: DETECÇÃO DE VEÍCULOS POLUIDORES E GASES (Pág. 128)
+• Veículos Poluidores:
+    ◦ O Código de Trânsito Brasileiro proíbe que se transite com veículo produzindo fumaça ou gases em níveis superiores aos fixados pelo CONTRAN.
+    ◦ Um veículo poluente sempre está prejudicando o meio ambiente.
+    ◦ Fumaça Preta: Indica queima incompleta, falha de injeção ou excesso de óleo, sendo prejudicial à saúde e ao meio ambiente.
+    ◦ Infração (Art. 231, III CTB): Transitar com o veículo produzindo fumaça, gases ou partículas em excesso. Penalidade: Infração Grave e retenção do veículo para regularização.
+• Gases Poluentes Emitidos pelos Veículos:
+    ◦ Monóxido de Carbono (CO): É expelido pela combustão da gasolina. É incolor, inodoro e prejudica o transporte de oxigênio no sangue.
+    ◦ Aldeídos: Gás resultante da queima de álcool nos motores. É responsável por irritações nos olhos e vias respiratórias; há suspeita de ser cancerígeno.
+    ◦ Óxidos de Nitrogênio (NOx): Ao reagir com o oxigênio, produz o ácido nítrico (chuva ácida), que danifica edifícios e causa possível perda de fertilidade do solo.
+    ◦ Diasina (Dióxido de Enxofre): Gás expelido por motores a diesel. Causa sérios danos à saúde.
+SLIDE 6: CFC, CATALISADOR, PROCONVE E PROMOT (Pág. 129)
+• CFC (Cloro Flúor Carbono):
+    ◦ É um gás muito prejudicial que destrói a camada de ozônio.
+    ◦ A destruição da camada protetora permite que raios ultravioleta penetrem na Terra, aumentando a incidência de doenças de pele e nos olhos.
+    ◦ Era usado em veículos equipados com ar condicionado. A indústria automotiva tem substituído o CFC por gases ecológicos.
+• Catalisador e Injeção Eletrônica:
+    ◦ O catalisador e a injeção eletrônica são componentes que ajudam a eliminar sensivelmente a poluição.
+    ◦ Função: Transformam as moléculas dos gases resultantes da queima de combustível em substâncias menos tóxicas.
+    ◦ Este equipamento é de uso obrigatório.
+• Programas de Controle da Poluição:
+    ◦ PROCONVE (Programa de Controle da Poluição do Ar por Veículos Automotores): Estabelece cronograma para redução de poluentes.
+        ▪ Promove a introdução de novas tecnologias, como catalisadores e sistemas de injeção eletrônica para uso com misturas de etanol e outros avanços.
+    ◦ PROMOT (Programa de Controle da Poluição do Ar por Motociclos e Veículos Similares):
+        ▪ Criado em 2002 para complementar o PROCONVE.
+        ▪ Foca na redução da poluição do ar oriunda de motocicletas.

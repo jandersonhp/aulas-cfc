@@ -1,0 +1,234 @@
+MÓDULO 4: NOÇÕES DE MECÂNICA BÁSICA
+SLIDE 1: INTRODUÇÃO E MOTOR DE COMBUSTÃO INTERNA (Pág. 138)
+• Importância da Mecânica Básica: Ter noções básicas de mecânica é muito importante, pois garante que os veículos sejam conduzidos em perfeitas condições, sem comprometer a segurança, e sem ser reprovado na inspeção de segurança ou de emissão de poluentes e ruídos.
+• O CTB e a Mecânica: O Código de Trânsito Brasileiro (CTB) define em seus artigos infrações e penalidades diretamente ligadas à mecânica básica dos veículos.
+    ◦ Exemplos de Falhas que geram infrações: Suspensão com altura alterada; Pneus que ofereçam condições mínimas de segurança; Iluminação ou sinalização alterados ou defeituosos; Freios, Buzina, Limpador de Para-brisa e Lanternas que não estiverem eficientes e operantes.
+• Conheça Seu Veículo: É importante ter sempre o manual do proprietário em mãos, pois nele estão contidos os recursos, funções e particularidades de todos os comandos.
+Sistemas do Veículo
+Para melhor compreensão, o veículo é dividido nos seguintes sistemas:
+• Motor
+• Alimentação
+• Arrefecimento
+• Lubrificação
+• Escapamento
+• Elétrico
+• Transmissão
+• Direção
+• Suspensão
+• Freios
+• Rodagem
+• Estrutura do Veículo
+Motor de Combustão Interna
+• Definição: É uma máquina termodinâmica que queima uma mistura ar-combustível e a inflama.
+• Funcionamento: A pressão gerada pela queima do combustível move o motor através do movimento retilíneo do pistão, transformando-o em movimento rotativo pelo virabrequim (eixo do motor).
+• Princípio de Funcionamento: Consiste na obtenção de gás pressurizado numa câmara fechada, resultando em um esforço que provoca o deslocamento do mecanismo auxiliar que transforma a energia potencial em trabalho mecânico.
+• Finalidade: Produzir movimentos de rotação por meio de explosões alternadas dentro de cilindros fechados.
+SLIDE 2: COMPONENTES E O FUNCIONAMENTO DO MOTOR (Pág. 139)
+• Válvulas de Admissão: Têm a função de deixar a mistura ar/combustível entrar.
+• Válvulas de Escape: Têm a função de controlar a saída dos gases resultantes da explosão.
+• Cabeçote: Contém as câmaras de combustão e, com seus dispositivos, permite a admissão, a compressão e a queima da mistura.
+• Bloco do Motor: É a estrutura principal, onde se alojam os cilindros, e serve para a fixação e o movimento de rotação do virabrequim (eixo do motor).
+• Conjunto Móvel: Transforma os movimentos retilíneos (dos pistões) em movimento de rotação do virabrequim (eixo do motor), causando o deslocamento do veículo.
+Funcionamento do Motor (Quatro Tempos)
+Os motores automotivos funcionam pelo princípio de combustão interna, onde a queima da mistura ar/combustível ocorre no interior dos cilindros.
+Tempo
+Nome
+Descrição
+1º Tempo
+Admissão
+A válvula de admissão abre, o pistão desce, passando a mistura ar/combustível para a câmara de combustão.
+2º Tempo
+Compressão
+As válvulas ficam fechadas, e o pistão sobe, comprimindo a mistura ar/combustível dentro do cilindro.
+3º Tempo
+Combustão e Explosão
+As válvulas continuam fechadas, uma faísca é liberada pela vela, causando a explosão e empurrando o pistão para baixo.
+4º Tempo
+Escapamento
+O que resta da combustão deve ser eliminado. A válvula de escape se abre e o gás queimado é expelido.
+SLIDE 3: SISTEMAS DE ALIMENTAÇÃO E ARREFECIMENTO (Pág. 140)
+Sistema de Alimentação
+Transporta o combustível do tanque até a cuba do carburador, através de condutos apropriados, e o entrega ao motor.
+• Carburador: Dispositivo que regula a mistura ar/combustível na dose certa. Atualmente, tem sido substituído pela injeção eletrônica.
+• Injeção Eletrônica:
+    ◦ Faz a dosagem do combustível via sistema eletrônico.
+    ◦ Garante uma mistura ar/combustível em quantidades ideais.
+    ◦ Vantagens: Garante menor poluição, maior economia e menor rendimento, partidas mais rápidas e melhor aproveitamento do combustível.
+    ◦ Quando o condutor aciona o acelerador, a bomba b manda o combustível para o bico injetor, onde a mistura é pulverizada e controlada eletronicamente pela centralina.
+Sistema de Arrefecimento ou Refrigeração
+• Função: Controla a temperatura do motor, que é feita pelo sistema de resfriamento ou arrefecimento.
+• O líquido de arrefecimento circula sob pressão por todo o interior do motor.
+• A bomba d'água força a circulação da água entre o motor e o radiador.
+• Causas de Superaquecimento: Falta de líquido no motor, vazamentos no mangueira ou correia rompida.
+• Termostática: Válvula que circula a água no bloco do motor, controlando a temperatura ideal.
+• Cebolinha: Responsável por acionar o ventilador (ventoinha) que resfria a água quente do radiador.
+SLIDE 4: SISTEMA DE LUBRIFICAÇÃO E ESCAPAMENTO (Págs. 141-142)
+Sistema de Lubrificação
+• Função: Reduz o atrito entre as peças em movimento no motor, depositando entre elas uma película de óleo lubrificante.
+• Garante maior vida útil das peças e ajuda a manter a temperatura normal de funcionamento.
+Componente
+Função
+Cárter
+Reservatório onde o óleo ocorre, pela gravidade.
+Bomba de Óleo
+Recolhe o óleo do cárter e o faz circular de novo.
+Filtro
+Retém as impurezas do óleo do motor. Deve ser trocado regularmente.
+• Verificação do Nível de Óleo:
+    ◦ Desligue o motor, aguarde alguns minutos e verifique com a vareta medidora.
+    ◦ O nível deve estar entre as marcas MÁX. e MÍN..
+    ◦ Se estiver abaixo da marca MÍN., adicione óleo da mesma viscosidade.
+• Vida Útil do Óleo: Para prolongar a vida útil, deve-se verificar o nível do óleo e trocá-lo periodicamente, incluindo os filtros.
+Escapamento (Pág. 142)
+• Função: Conjunto de condutos que se interligam ao motor para eliminar os gases gerados e diminuir os ruídos.
+• Componentes:
+    ◦ Tubo Coletor: Colhe os gases emitidos pelo motor.
+    ◦ Catalisador: Dispositivo que reduz a poluição dos gases, transformando-os em substâncias menos tóxicas.
+    ◦ Tubulação: Conduz os gases.
+    ◦ Silencioso Intermediário/Traseiro: Diminuem a velocidade de expansão dos gases, reduzindo as vibrações e ruídos.
+• Sinal de Silencioso Danificado: Se o veículo apresentar ruídos em excesso, é sinal de silencioso danificado, exigindo revisão imediata para evitar poluição e multas.
+SLIDE 5: SISTEMA ELÉTRICO E PAINEL DE INSTRUMENTOS (Págs. 142-143)
+Sistema Elétrico (Pág. 142)
+Incorpora um número elevado de peças elétricas, ligadas por uma rede de condutores.
+• Composição Básica: Bateria, chave de ignição, distribuidor, vela e bobina.
+• Bateria: Acumula energia elétrica em forma de corrente contínua e é responsável pelo funcionamento dos equipamentos elétricos.
+    ◦ Nas baterias convencionais, deve-se verificar o nível de água destilada.
+    ◦ Para preservar a bateria, evite deixar rádio ou luzes acesas por tempo prolongado, especialmente se o motor estiver parado.
+• Chave de Ignição: Interruptor rotativo que permite ligamentos em estágios distintos.
+• Distribuidor: Leva a corrente de alta tensão no momento em que ela deve entrar em ação.
+Componentes Elétricos (Pág. 143)
+• Vela de Ignição: Componente que solta centelhas elétricas (faíscas), inflamando a mistura ar-combustível.
+• Bobina ou Ignição Eletrônica: Transforma a corrente de baixa voltagem em corrente de alta voltagem (10.000 a 25.000 Volts), levando-a ao distribuidor.
+• Motor de Partida ou Motor de Arranque: Motor elétrico que fornece a energia para as primeiras rotações do motor de combustão interna.
+• Alternador ou Gerador: Fornece corrente elétrica suficiente para recarregar a bateria.
+• Fusível: Usado para proteger os circuitos elétricos de danos em caso de fluxo de carga excessiva.
+Luzes e Painel de Instrumentos (Pág. 143, 147)
+• Luzes de Alerta do Painel: Indicam falhas no funcionamento do sistema.
+    ◦ Exemplo: Luzes que indicam a falta de óleo ou de fluido de freio.
+    ◦ Quando o nível do líquido diminui, desce e encosta em um interruptor que fecha o circuito elétrico, acendendo a luz de alerta.
+• Velocímetro: Indica a velocidade instantânea.
+• Hodômetro (Parcial e Total): Indica a quilometragem percorrida.
+• Manômetro: Indica a pressão do óleo do motor.
+• Termômetro: Indica a temperatura do líquido de arrefecimento.
+• Tacômetro (Conta-giros): Indica o número de rotações por minuto (RPM) do motor.
+SLIDE 6: SISTEMAS DE TRANSMISSÃO E DIREÇÃO (Pág. 144)
+Sistema de Transmissão
+Os motores produzem energia mecânica que chega nas rodas através deste sistema.
+• Composição: Embreagem, caixa de câmbio, eixo cardã, diferencial e semi-eixos.
+• Embreagem: Composta de um platô e disco, permite que as marchas engrenem. Está localizada entre o motor e a caixa de mudança.
+• Pedal: Responsável pelo acionamento da embreagem, acoplando e desacoplando-a na transmissão.
+• Câmbio (Caixa de Câmbio): Tem a função de transmitir maior ou menor força ou velocidade às rodas.
+• Eixo Cardã: Empregado em veículos com tração traseira ou tração nas quatro rodas.
+• Diferencial: Conjunto de engrenagens que se combinam entre si, permitindo que as rodas motrizes desenvolvam rotações diferentes, útil em curvas.
+• Semi-eixos: Ligam o diferencial às rodas, transmitindo a tração.
+Sistema de Direção
+Conjunto de órgãos e mecanismos que se articulam entre si, permitindo os movimentos laterais das rodas.
+• Composição Básica: Volante, varão, terminais, caixa de direção e barras de direção.
+• Direção Hidráulica: Combinação de um sistema mecânico comum com um sistema auxiliar hidráulico. Reduz o esforço físico ao movimentar as rodas.
+• Atenção: Se o volante começar a tremer quando o veículo estiver em velocidade, é sinal de que os pneus e rodas estão desequilibrados, devendo ser realizado alinhamento e balanceamento.
+SLIDE 7: SISTEMAS DE SUSPENSÃO E FREIOS (Pág. 145)
+Sistema de Suspensão
+• Composição: Mola, amortecedor e braço da suspensão.
+• Função: Amortecer os impactos da roda do veículo com o solo. As molas e os amortecedores atenuam os impactos, servindo para unir os eixos do veículo.
+• Ruídos/Instabilidade: Ruídos e má estabilidade são sinais de problemas na suspensão.
+• Segurança: O sistema deve ser revisado, pois suspensão e direção são vitais para a segurança e a estabilidade do veículo em curvas e retas.
+Sistema de Freios
+• Função: Paralisação e redução da velocidade do veículo.
+• Tipos de Freio:
+    ◦ Freio "de pé": Usado com o veículo em movimento.
+    ◦ Freio "de mão": Conhecido como freio de estacionamento, usado em paradas, declives e subidas.
+• Tipos de Sistemas: Freio a disco e freio a tambor.
+    ◦ Freio a disco: Pastilhas prendem o disco que acompanha o movimento da roda.
+• Fluid-based Systems:
+    ◦ Ar: Usado em veículos pesados e de grande porte (compressor de ar).
+    ◦ Hidráulico: Utiliza o óleo de freio (fluido), que fica num reservatório, impulsionando as lonas e pastilhas.
+    ◦ Hidrovácuo: Auxiliar hidráulico que aumenta a pressão do óleo (fluido).
+• ABS (Anti-lock brake system): Sistema antibloqueio de freios.
+    ◦ Permite ao condutor evitar o travamento das rodas nas frenagens mais intensas, mantendo a dirigibilidade do veículo.
+    ◦ Funciona por meio de sensores que medem a velocidade das rodas.
+SLIDE 8: SISTEMA DE RODAGEM, ESTRUTURA E SEGURANÇA (Págs. 146-147)
+Sistema de Rodagem (Pág. 146)
+• Composição: Aros e pneus, recebendo a rotação do motor.
+• Pneus: Componentes por: carcaça de lonas, banda de rodagem e talões.
+    ◦ São o único equipamento que faz contato entre o veículo e o solo.
+    ◦ Durabilidade: Pneus em bom estado e corretamente balanceados garantem uma boa estabilidade.
+    ◦ Limite Legal: Profundidade mínima dos sulcos: 1,6 milímetros. Abaixo disso, o pneu não drena a água e proporciona elevados riscos de aquaplanagem.
+    ◦ Calibragem: Deve ser verificada regularmente, especialmente antes de viagens longas, e seguir as recomendações do fabricante.
+Estrutura dos Veículos (Pág. 146)
+• Os veículos são montados sobre uma base que pode ser chassi ou monobloco.
+• Longarina: Estrutura principal que compõe o chassi.
+• Monobloco: A carroceria (estrutura) e o chassi são uma unidade.
+• Estrutura Rígida: Feita em aço reforçado, priorizando a cabine de veículos.
+• Estrutura Deformável: A parte frontal do veículo é projetada para deformar, absorvendo a energia do impacto.
+• Chassi (VIN): O Chassi é composto de 17 (dezessete) dígitos que compõem o VIN (Vehicle Identification Number), obedecendo à seguinte sistemática.
+Airbag e Extintor de Incêndio (Págs. 147-148)
+• Air Bag (Bolsa de Ar) (Pág. 147):
+    ◦ Infla em caso de colisão, reduzindo o risco de ferimentos graves na cabeça e no tórax.
+    ◦ Atua juntamente com o cinto de segurança.
+    ◦ Desde 2014, air bag para condutor e passageiro e sistema de freios ABS são equipamentos obrigatórios para todos os veículos novos vendidos no Brasil.
+• Extintor de Incêndio (Pág. 147-148):
+    ◦ Pode ser usado por qualquer pessoa.
+    ◦ Tipo ABC: Apaga fogo em combustível, em sistemas elétricos e em materiais como tapeçaria e painéis.
+    ◦ É item obrigatório para automóveis, utilitários, caminhonetas, e veículos de transporte coletivo.
+    ◦ Validade: A durabilidade é de cinco anos (5 anos).
+    ◦ Verificação: O manômetro (indicador de pressão) deve estar na faixa verde.
+• Combate a Incêndio (Pág. 148): Estacione o veículo em local seguro, desligue o carro e retire o extintor. Rompa o lacre e descarregue o conteúdo no foco do fogo.
+SLIDE 9: MECÂNICA DE MOTOCICLETAS (Págs. 149-153)
+Partida do Motor (Pág. 149)
+• Antes de Sair: Verifique se a transmissão está em ponto morto e se o registro de combustível está na posição ON.
+• Motor Frio (Afogador): Puxe a alavanca do afogador (choke) para a posição ON (A).
+    ◦ Pressione levemente o pedal de partida até sentir resistência, depois acione-o rapidamente.
+    ◦ Não acione o pedal de partida com o motor em funcionamento, pois isso poderá danificá-lo.
+• Motor Afogado (Pág. 150): Desligue o interruptor de ignição, mantenha a alavanca do afogador totalmente desacionada (C) e acelere completamente.
+Verificação Permanente (Pág. 151)
+Diariamente, antes de sair, faça uma inspeção em sua motocicleta.
+• Suspensão e Amortecedores: Manter a estabilidade. Verificar periodicamente o estado de conservação.
+• Comandos e Cabos: Folga das alavancas de embreagem e freio devem ser reguladas (entre 1,5 a 2 centímetros).
+• Freios: Se for hidráulico, verifique semanalmente o nível do fluido.
+• Luzes e Partes Elétricas: Verificar se todas as luzes estão funcionando. O defeito é considerado infração média.
+• Lubrificação da Corrente: Lubrifique a corrente a cada 500 km. A folga da corrente não pode ser maior que 2 centímetros.
+Pneus e Combustível (Págs. 152-153)
+• Calibragem dos Pneus (Pág. 152): Manter a calibragem correta. Pneus com garupa devem usar de 38 a 40 libras (pneu quente).
+    ◦ O dianteiro deve usar 4 libras a menos que o traseiro.
+• Troca de Pneus: Pneus aguentam em torno de 10.000 km. Troque quando não houver sulco na faixa central.
+• Óleo Lubrificante (Pág. 153): Recomenda-se óleo 20/40 e 20/50. A troca deve ser feita entre $3.000\text{ km}$ e $6.000\text{ km}$.
+• Gasolina no Tanque (Pág. 153): É aconselhável usar gasolina aditivada. Mantenha o tanque sempre cheio para evitar que a umidade e a sujeira atinjam a bomba.
+SLIDE 10: EQUIPAMENTOS OBRIGATÓRIOS (Pág. 154)
+O CONTRAN (Resolução nº 14/98) estabelece os equipamentos obrigatórios.
+Tipo de Veículo
+Exemplos de Equipamentos Obrigatórios
+I - Veículos Automotores
+Para-choques, protetores das rodas traseiras, espelho retrovisor (interno e externo), limpador/lavador de para-brisa, pala protetora (para-sol), faróis principais/luzes dianteiras (cor branca/amarela), luzes de posição/lanterna (cor vermelha na traseira), lanternas de freio, velocímetro, buzina.
+II - Reboques e Semirreboques
+Para-choque, protetores das rodas traseiras, freio de estacionamento/serviço, lanternas de posição, freio, iluminação de placa, pneus.
+III - Motonetas, Motocicletas e Triciclos
+Espelhos retrovisores (ambos os lados), farol dianteiro (branco/amarelo), lanterna traseira (vermelha), lanterna de freio (vermelha), velocímetro, buzina, pneus, dispositivo acústico de controle de ruído do motor.
+V - Veículos produzidos a partir de 01/01/1999
+Encosto de cabeça em todos os assentos, cinto de segurança de três pontos, e espelhos retrovisores externos.
+SLIDE 11: QUESTÕES DE REVISÃO – SISTEMAS (Págs. 155, 156, 157, 158)
+(Utilizar as questões de 155 a 158 como tópicos de revisão).
+• 1. Manutenção Preventiva: Antes da circulação, o condutor deve verificar o bom funcionamento das luzes (faróis, freio, pisca-alerta, placa).
+• 2. Função do Catalisador: Reduzir a emissão de poluentes nos veículos.
+• 3. Ciclos do Motor: O funcionamento do motor ocorre em quatro ciclos: Admissão, compressão, explosão e escapamento.
+• 4. Sistema de Arrefecimento: Controla a temperatura da água por meio do resfriamento ou arrefecimento.
+• 5. Estabilidade: A estabilidade nas retas e curvas é garantida pelo sistema de direção e suspensão.
+• 6. Freios: O sistema de freios mais seguro é o Freio a disco.
+• 7. Pneus e Calibragem: A baixa calibragem dos pneus reduz sua vida útil.
+• 8. Transmissão: O sistema que transforma a energia mecânica do motor nas rodas é a Transmissão.
+• 9. Componentes Fixos/Móveis do Motor: Bloco, cabeçote, virabrequim e cárter.
+• 10. Bateria e Eletricidade: A função da bateria é armazenar e fornecer corrente elétrica. A eletricidade necessária para acionar o motor de arranque provém da bateria.
+• 11. Superaquecimento: O superaquecimento do motor pode ser detectado pelo indicador no painel denominado Termômetro.
+• 12. Luz de Falha no Painel: A luz indicadora que acende no painel quando há falha no circuito elétrico pode indicar falta de fluido, vazamentos ou desgaste de pastilha.
+• 13. Lubrificação: A função do filtro de óleo é reter as impurezas do óleo do motor.
+• 14. Suspensão: Em um veículo, a mola e os amortecedores e o braço da suspensão compõem o Sistema de suspensão.
+• 15. Tração Dianteira: Nos veículos com tração dianteira, a peça articulada que liga o semi-eixo à roda, permitindo a transmissão da força, é a Junta homocinética.
+SLIDE 12: TESTES FINAIS DE MECÂNICA (Pág. 159)
+(Utilizar as questões da página 159 como teste final).
+• Q01. Pneus (Três Funções Importantes): Impulsionar, frear e manter a dirigibilidade.
+• Q02. Água Forçada: O equipamento necessário para a água ser forçada a circular entre o motor e o radiador é a Bomba d'água.
+• Q03. Estabilidade e Sistemas: A estabilidade de um veículo nas retas e curvas é garantida pelos sistemas de freios, rodagem, transmissão, direção e suspensão.
+• Q07. Quatro Tempos do Motor: Os quatro tempos de um motor de combustão interna são: Admissão, compressão, explosão e escapamento.
+• Q08. Controle de Temperatura: O controle da temperatura de um motor é realizado pelo sistema de Arrefecimento ou refrigeração.
+• Q10. Peças Internas do Motor: Entre as peças principais (fixas e móveis) do motor de combustão interna estão: Bloco, cabeçote, pistão, volante do motor e caixa de câmbio.
+• Q12. Lubrificação: O filtro de óleo tem a função de reter as impurezas do óleo do motor.
+• Q13. Segurança Obrigatória: Equipamentos de segurança obrigatórios: Pneus, freios, amortecedores e cinto de segurança.
